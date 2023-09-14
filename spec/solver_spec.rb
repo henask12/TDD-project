@@ -46,4 +46,8 @@ describe Solver do
     expect(subject.fizzbuzz(3)).to eq('fizz')
     expect(subject.fizzbuzz(9)).to eq('fizz')
   end
+
+  it 'should raise an error for a negative number' do
+    expect { subject.factorial(-1) }.to raise_error('This method only accepts positive numbers')
+  end
 end
