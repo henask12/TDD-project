@@ -74,7 +74,7 @@ Clone this repository to your desired folder:
 
 - GitHub: [@githubhandle](https://github.com/henask12)
 - Twitter: [@twitterhandle](https://twitter.com/henok_mekonnen3)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/henok-mekonnen-491685188)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/henok-mekonnen1)
 
 👤**Javivy**
 
