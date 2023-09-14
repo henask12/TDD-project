@@ -33,4 +33,12 @@ describe Solver do
   it 'should return number' do
     expect(subject.fizzbuzz(7)).to eq(7)
   end
+
+  it 'should return the factorial of 0' do
+    expect(subject.factorial(0)).to eq(1)
+  end
+
+  it 'should return the factorial of 1' do
+    expect(subject.factorial(1)).to eq(1)
+  end
 end
