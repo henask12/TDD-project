@@ -50,4 +50,14 @@ describe Solver do
   it 'should raise an error for a negative number' do
     expect { subject.factorial(-1) }.to raise_error('This method only accepts positive numbers')
   end
+
+  it 'should return "fizzbuzz" for multiples of both 3 and 5' do
+    expect(subject.fizzbuzz(15)).to eq('fizzbuzz')
+    expect(subject.fizzbuzz(30)).to eq('fizzbuzz')
+  end
+
+  it 'should return the number itself for non-multiples of 3 and 5' do
+    expect(subject.fizzbuzz(7)).to eq(7)
+    expect(subject.fizzbuzz(11)).to eq(11)
+  end
 end
