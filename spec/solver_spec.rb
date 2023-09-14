@@ -41,4 +41,9 @@ describe Solver do
   it 'should return the factorial of 1' do
     expect(subject.factorial(1)).to eq(1)
   end
+
+  it 'should return "fizz" for multiples of 3' do
+    expect(subject.fizzbuzz(3)).to eq('fizz')
+    expect(subject.fizzbuzz(9)).to eq('fizz')
+  end
 end
